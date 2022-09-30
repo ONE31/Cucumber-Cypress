@@ -1,0 +1,1567 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test rm2API",
+    "line": 1,
+    "id": "test-rm2api",
+    "tags": [],
+    "uri": "getHelp.feature",
+    "elements": [
+      {
+        "id": "test-rm2api;successful-post-request",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successful Post request",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 803000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I send Post request to rm2API using 'executive.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 5155000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Response staus code is 200",
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Invalid Post Request",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I send Post request to rm2API using 'executive_invalid.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 7931000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Test rm2API",
+    "line": 2,
+    "id": "test-rm2api",
+    "tags": [
+      {
+        "name": "@getHelp",
+        "line": 1
+      }
+    ],
+    "uri": "getHelp.feature",
+    "elements": [
+      {
+        "id": "test-rm2api;successful-post-request",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Successful Post request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 468000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I send Post request to rm2API using 'executive.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 17674000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Response staus code is 200",
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 351000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I send Post request to rm2API using 'executive_invalid.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 3443000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Test rm2API",
+    "line": 2,
+    "id": "test-rm2api",
+    "tags": [
+      {
+        "name": "@getHelp",
+        "line": 1
+      }
+    ],
+    "uri": "getHelp.feature",
+    "elements": [
+      {
+        "id": "test-rm2api;successful-post-request",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Successful Post request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 706000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I send Post request to rm2API using 'executive.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 5596000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Response staus code is 200",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I send Post request to rm2API using 'executive_invalid.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 4209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I send Post request to rm2API using 'empty.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 1958000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Test rm2API",
+    "line": 2,
+    "id": "test-rm2api",
+    "tags": [
+      {
+        "name": "@getHelp",
+        "line": 1
+      }
+    ],
+    "uri": "getHelp.feature",
+    "elements": [
+      {
+        "id": "test-rm2api;successful-post-request",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Successful Post request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 529000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I send Post request to rm2API using 'executive.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 2173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Response staus code is 200",
+            "result": {
+              "status": "failed",
+              "duration": 134000000,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -500\n    +200\n\n    at Context.eval (http://localhost:60900/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:85:78)\n    at Context.resolveAndRunStepDefinition (http://localhost:60900/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:10452:29)\n    at Context.eval (http://localhost:60900/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:9773:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I send Post request to rm2API using 'executive_invalid.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 1676000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError\n    + expected - actual\n\n    -500\n    +400\n\n    at Context.eval (http://localhost:60900/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:85:78)\n    at Context.resolveAndRunStepDefinition (http://localhost:60900/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:10452:29)\n    at Context.eval (http://localhost:60900/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:9773:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I send Post request to rm2API using 'empty.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 1734000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError\n    + expected - actual\n\n    -500\n    +400\n\n    at Context.eval (http://localhost:60900/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:85:78)\n    at Context.resolveAndRunStepDefinition (http://localhost:60900/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:10452:29)\n    at Context.eval (http://localhost:60900/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:9773:35)"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Test rm2API",
+    "line": 2,
+    "id": "test-rm2api",
+    "tags": [
+      {
+        "name": "@getHelp",
+        "line": 1
+      }
+    ],
+    "uri": "getHelp.feature",
+    "elements": [
+      {
+        "id": "test-rm2api;successful-post-request",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Successful Post request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 713000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I send Post request to rm2API using 'executive.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 7187000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Response staus code is 200",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I send Post request to rm2API using 'executive_invalid.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 2833000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 221000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I send Post request to rm2API using 'empty.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 1416000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Test rm2API",
+    "line": 2,
+    "id": "test-rm2api",
+    "tags": [
+      {
+        "name": "@getHelp",
+        "line": 1
+      }
+    ],
+    "uri": "getHelp.feature",
+    "elements": [
+      {
+        "id": "test-rm2api;successful-post-request",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Successful Post request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 713000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I send Post request to rm2API using 'executive.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 7187000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Response staus code is 200",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I send Post request to rm2API using 'executive_invalid.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 2833000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 221000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I send Post request to rm2API using 'empty.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 1416000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Test rm2API",
+    "line": 2,
+    "id": "test-rm2api",
+    "tags": [
+      {
+        "name": "@getHelp",
+        "line": 1
+      }
+    ],
+    "uri": "getHelp.feature",
+    "elements": [
+      {
+        "id": "test-rm2api;successful-post-request",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Successful Post request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 713000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I send Post request to rm2API using 'executive.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 3022000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Response staus code is 200",
+            "result": {
+              "status": "failed",
+              "duration": 137000000,
+              "error_message": "AssertionError: Actual response status code does not match expected: expected 500 to equal 200\n    + expected - actual\n\n    -500\n    +200\n\n    at Context.eval (http://localhost:63894/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:85:133)\n    at Context.resolveAndRunStepDefinition (http://localhost:63894/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:10452:29)\n    at Context.eval (http://localhost:63894/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:9773:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I send Post request to rm2API using 'executive_invalid.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 3086000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Actual response status code does not match expected: expected 500 to equal 400\n    + expected - actual\n\n    -500\n    +400\n\n    at Context.eval (http://localhost:63894/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:85:133)\n    at Context.resolveAndRunStepDefinition (http://localhost:63894/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:10452:29)\n    at Context.eval (http://localhost:63894/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:9773:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 201000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I send Post request to rm2API using 'empty.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 2006000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Actual response status code does not match expected: expected 500 to equal 400\n    + expected - actual\n\n    -500\n    +400\n\n    at Context.eval (http://localhost:63894/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:85:133)\n    at Context.resolveAndRunStepDefinition (http://localhost:63894/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:10452:29)\n    at Context.eval (http://localhost:63894/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:9773:35)"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Test rm2API",
+    "line": 2,
+    "id": "test-rm2api",
+    "tags": [
+      {
+        "name": "@getHelp",
+        "line": 1
+      }
+    ],
+    "uri": "getHelp.feature",
+    "elements": [
+      {
+        "id": "test-rm2api;successful-post-request",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Successful Post request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 614000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I send Post request to rm2API using 'executive.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 7653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Response staus code is 200",
+            "result": {
+              "status": "failed",
+              "duration": 158000000,
+              "error_message": "AssertionError: Actual response status code does not match expected: expected 200 to equal 500\n    + expected - actual\n\n    -200\n    +500\n\n    at Context.eval (http://localhost:50690/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:91:94)\n    at Context.resolveAndRunStepDefinition (http://localhost:50690/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:10458:29)\n    at Context.eval (http://localhost:50690/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:9779:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 264000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I send Post request to rm2API using 'executive_invalid.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 1951000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Actual response status code does not match expected: expected 400 to equal 500\n    + expected - actual\n\n    -400\n    +500\n\n    at Context.eval (http://localhost:50690/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:91:94)\n    at Context.resolveAndRunStepDefinition (http://localhost:50690/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:10458:29)\n    at Context.eval (http://localhost:50690/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:9779:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 207000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I send Post request to rm2API using 'empty.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 1766000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Actual response status code does not match expected: expected 400 to equal 500\n    + expected - actual\n\n    -400\n    +500\n\n    at Context.eval (http://localhost:50690/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:91:94)\n    at Context.resolveAndRunStepDefinition (http://localhost:50690/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:10458:29)\n    at Context.eval (http://localhost:50690/__cypress/tests?p=cypress\\integration\\features\\getHelp.feature:9779:35)"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Test rm2API",
+    "line": 2,
+    "id": "test-rm2api",
+    "tags": [
+      {
+        "name": "@getHelp",
+        "line": 1
+      }
+    ],
+    "uri": "getHelp.feature",
+    "elements": [
+      {
+        "id": "test-rm2api;successful-post-request",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Successful Post request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 563000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I send Post request to rm2API using 'executive.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 5499000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Response staus code is 200",
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 299000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I send Post request to rm2API using 'executive_invalid.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 4765000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 315000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I send Post request to rm2API using 'empty.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 2521000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Test GetHelp Portal API",
+    "line": 2,
+    "id": "test-gethelp-portal-api",
+    "tags": [
+      {
+        "name": "@getHelp",
+        "line": 1
+      }
+    ],
+    "uri": "getHelpPortal_API.feature",
+    "elements": [
+      {
+        "id": "test-gethelp-portal-api;successfully-get-countries-list",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Successfully Get Countries list",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I requested an access_token for GetHelp Portal API",
+            "result": {
+              "status": "passed",
+              "duration": 720000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I send Get request to GetHelp Portal with the uri path'/odata/country'",
+            "result": {
+              "status": "failed",
+              "duration": 1852000000,
+              "error_message": "CypressError: `cy.request()` failed on:\n\nhttps://gethelpapidev.azurewebsites.net/odata/country\n\nThe response we received from your web server was:\n\n  > 403: Forbidden\n\nThis was considered a failure because the status code was not `2xx` or `3xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: GET\nURL: https://gethelpapidev.azurewebsites.net/odata/country\nHeaders: {\n  \"Connection\": \"keep-alive\",\n  \"Content-Type\": \"application/json\",\n  \"user-agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/8.7.0 Chrome/93.0.4577.82 Electron/14.1.0 Safari/537.36\",\n  \"accept\": \"*/*\",\n  \"accept-encoding\": \"gzip, deflate\"\n}\n\n-----------------------------------------------------------\n\nThe response we got was:\n\nStatus: 403 - Forbidden\nHeaders: {\n  \"content-length\": \"44\",\n  \"content-type\": \"text/plain; charset=utf-8\",\n  \"date\": \"Thu, 29 Sep 2022 18:46:37 GMT\",\n  \"server\": \"Microsoft-IIS/10.0\",\n  \"access-control-expose-headers\": \"Request-Context\",\n  \"cache-control\": \"no-cache\",\n  \"expires\": \"-1\",\n  \"pragma\": \"no-cache\",\n  \"set-cookie\": [\n    \"ARRAffinity=54e25495543135d1bc6005f20a6da35971b6cef4229593049e00c37f0506b154;Path=/;HttpOnly;Secure;Domain=gethelpapidev.azurewebsites.net\",\n    \"ARRAffinitySameSite=54e25495543135d1bc6005f20a6da35971b6cef4229593049e00c37f0506b154;Path=/;HttpOnly;SameSite=None;Secure;Domain=gethelpapidev.azurewebsites.net\"\n  ],\n  \"x-aspnet-version\": \"4.0.30319\",\n  \"request-context\": \"appId=cid-v1:045db0e2-cd87-42f4-b660-b1267038a53a\",\n  \"x-powered-by\": \"ASP.NET\"\n}\nBody: You are unauthorized to access this resource\n\n\nhttps://on.cypress.io/request\n    at http://localhost:60584/__cypress/runner/cypress_runner.js:157339:80\n    at tryCatcher (http://localhost:60584/__cypress/runner/cypress_runner.js:13212:23)\n    at Promise._settlePromiseFromHandler (http://localhost:60584/__cypress/runner/cypress_runner.js:11147:31)\n    at Promise._settlePromise (http://localhost:60584/__cypress/runner/cypress_runner.js:11204:18)\n    at Promise._settlePromise0 (http://localhost:60584/__cypress/runner/cypress_runner.js:11249:10)\n    at Promise._settlePromises (http://localhost:60584/__cypress/runner/cypress_runner.js:11329:18)\n    at _drainQueueStep (http://localhost:60584/__cypress/runner/cypress_runner.js:7919:12)\n    at _drainQueue (http://localhost:60584/__cypress/runner/cypress_runner.js:7912:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:60584/__cypress/runner/cypress_runner.js:7928:5)\n    at Async.drainQueues (http://localhost:60584/__cypress/runner/cypress_runner.js:7798:14)\nFrom Your Spec Code:\n    at Context.eval (http://localhost:60584/__cypress/tests?p=cypress\\integration\\features\\getHelpPortal_API.feature:85:13)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Response staus code is 200",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-gethelp-portal-api;successfully-get-incident-type",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Successfully Get Incident type",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I requested an access_token for GetHelp Portal API",
+            "result": {
+              "status": "passed",
+              "duration": 270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I send Get request to GetHelp Portal with the uri path'/odata/incidenttype'",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.request()` failed on:\n\nhttps://gethelpapidev.azurewebsites.net/odata/incidenttype\n\nThe response we received from your web server was:\n\n  > 403: Forbidden\n\nThis was considered a failure because the status code was not `2xx` or `3xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: GET\nURL: https://gethelpapidev.azurewebsites.net/odata/incidenttype\nHeaders: {\n  \"Connection\": \"keep-alive\",\n  \"Content-Type\": \"application/json\",\n  \"user-agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/8.7.0 Chrome/93.0.4577.82 Electron/14.1.0 Safari/537.36\",\n  \"accept\": \"*/*\",\n  \"cookie\": \"ARRAffinitySameSite=54e25495543135d1bc6005f20a6da35971b6cef4229593049e00c37f0506b154; ARRAffinity=54e25495543135d1bc6005f20a6da35971b6cef4229593049e00c37f0506b154\",\n  \"accept-encoding\": \"gzip, deflate\"\n}\n\n-----------------------------------------------------------\n\nThe response we got was:\n\nStatus: 403 - Forbidden\nHeaders: {\n  \"content-length\": \"44\",\n  \"content-type\": \"text/plain; charset=utf-8\",\n  \"date\": \"Thu, 29 Sep 2022 18:46:38 GMT\",\n  \"server\": \"Microsoft-IIS/10.0\",\n  \"access-control-expose-headers\": \"Request-Context\",\n  \"cache-control\": \"no-cache\",\n  \"expires\": \"-1\",\n  \"pragma\": \"no-cache\",\n  \"x-aspnet-version\": \"4.0.30319\",\n  \"request-context\": \"appId=cid-v1:045db0e2-cd87-42f4-b660-b1267038a53a\",\n  \"x-powered-by\": \"ASP.NET\"\n}\nBody: You are unauthorized to access this resource\n\n\nhttps://on.cypress.io/request\n    at http://localhost:60584/__cypress/runner/cypress_runner.js:157339:80\n    at tryCatcher (http://localhost:60584/__cypress/runner/cypress_runner.js:13212:23)\n    at Promise._settlePromiseFromHandler (http://localhost:60584/__cypress/runner/cypress_runner.js:11147:31)\n    at Promise._settlePromise (http://localhost:60584/__cypress/runner/cypress_runner.js:11204:18)\n    at Promise._settlePromise0 (http://localhost:60584/__cypress/runner/cypress_runner.js:11249:10)\n    at Promise._settlePromises (http://localhost:60584/__cypress/runner/cypress_runner.js:11329:18)\n    at _drainQueueStep (http://localhost:60584/__cypress/runner/cypress_runner.js:7919:12)\n    at _drainQueue (http://localhost:60584/__cypress/runner/cypress_runner.js:7912:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:60584/__cypress/runner/cypress_runner.js:7928:5)\n    at Async.drainQueues (http://localhost:60584/__cypress/runner/cypress_runner.js:7798:14)\nFrom Your Spec Code:\n    at Context.eval (http://localhost:60584/__cypress/tests?p=cypress\\integration\\features\\getHelpPortal_API.feature:85:13)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Response staus code is 200",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-gethelp-portal-api;successfully-get-user-domain",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Successfully Get User Domain",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I requested an access_token for GetHelp Portal API",
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I send Get request to GetHelp Portal with the uri path'/odata/userdomain'",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.request()` failed on:\n\nhttps://gethelpapidev.azurewebsites.net/odata/userdomain\n\nThe response we received from your web server was:\n\n  > 403: Forbidden\n\nThis was considered a failure because the status code was not `2xx` or `3xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: GET\nURL: https://gethelpapidev.azurewebsites.net/odata/userdomain\nHeaders: {\n  \"Connection\": \"keep-alive\",\n  \"Content-Type\": \"application/json\",\n  \"user-agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/8.7.0 Chrome/93.0.4577.82 Electron/14.1.0 Safari/537.36\",\n  \"accept\": \"*/*\",\n  \"cookie\": \"ARRAffinitySameSite=54e25495543135d1bc6005f20a6da35971b6cef4229593049e00c37f0506b154; ARRAffinity=54e25495543135d1bc6005f20a6da35971b6cef4229593049e00c37f0506b154\",\n  \"accept-encoding\": \"gzip, deflate\"\n}\n\n-----------------------------------------------------------\n\nThe response we got was:\n\nStatus: 403 - Forbidden\nHeaders: {\n  \"content-length\": \"44\",\n  \"content-type\": \"text/plain; charset=utf-8\",\n  \"date\": \"Thu, 29 Sep 2022 18:46:38 GMT\",\n  \"server\": \"Microsoft-IIS/10.0\",\n  \"access-control-expose-headers\": \"Request-Context\",\n  \"cache-control\": \"no-cache\",\n  \"expires\": \"-1\",\n  \"pragma\": \"no-cache\",\n  \"x-aspnet-version\": \"4.0.30319\",\n  \"request-context\": \"appId=cid-v1:045db0e2-cd87-42f4-b660-b1267038a53a\",\n  \"x-powered-by\": \"ASP.NET\"\n}\nBody: You are unauthorized to access this resource\n\n\nhttps://on.cypress.io/request\n    at http://localhost:60584/__cypress/runner/cypress_runner.js:157339:80\n    at tryCatcher (http://localhost:60584/__cypress/runner/cypress_runner.js:13212:23)\n    at Promise._settlePromiseFromHandler (http://localhost:60584/__cypress/runner/cypress_runner.js:11147:31)\n    at Promise._settlePromise (http://localhost:60584/__cypress/runner/cypress_runner.js:11204:18)\n    at Promise._settlePromise0 (http://localhost:60584/__cypress/runner/cypress_runner.js:11249:10)\n    at Promise._settlePromises (http://localhost:60584/__cypress/runner/cypress_runner.js:11329:18)\n    at _drainQueueStep (http://localhost:60584/__cypress/runner/cypress_runner.js:7919:12)\n    at _drainQueue (http://localhost:60584/__cypress/runner/cypress_runner.js:7912:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:60584/__cypress/runner/cypress_runner.js:7928:5)\n    at Async.drainQueues (http://localhost:60584/__cypress/runner/cypress_runner.js:7798:14)\nFrom Your Spec Code:\n    at Context.eval (http://localhost:60584/__cypress/tests?p=cypress\\integration\\features\\getHelpPortal_API.feature:85:13)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Response staus code is 200",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "new Feature",
+    "line": 1,
+    "id": "new-feature",
+    "tags": [],
+    "uri": "new_api.feature",
+    "elements": [
+      {
+        "id": "new-feature;dfdgfgfg",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "dfdgfgfg",
+        "tags": [],
+        "type": "scenario",
+        "steps": []
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Test rm2API",
+    "line": 3,
+    "id": "test-rm2api",
+    "tags": [
+      {
+        "name": "@getHelp",
+        "line": 1
+      }
+    ],
+    "uri": "rm2_API.feature",
+    "elements": [
+      {
+        "id": "test-rm2api;successful-post-request",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Successful Post request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I send Post request to rm2API using 'Execute.json' fixture",
+            "result": {
+              "status": "failed",
+              "duration": 197000000,
+              "error_message": "Error: A fixture file could not be found at any of the following paths:\n\n> cypress\\fixtures\\Execute.json\n> cypress\\fixtures\\Execute.json{{extension}}\n\nCypress looked for these file extensions at the provided path:\n\n> .json, .js, .coffee, .html, .txt, .csv, .png, .jpg, .jpeg, .gif, .tif, .tiff, .zip\n\nProvide a path to an existing fixture file.\n    at get (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\lib\\errors.js:1035:15)\n    at Object.throwErr [as throw] (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\lib\\errors.js:1053:9)\n    at Object.<anonymous> (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\lib\\fixture.js:63:23)\n    at Object.tryCatcher (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n    at Promise._settlePromise (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n    at Promise._settlePromise0 (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n    at Promise._settlePromises (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n    at Promise._fulfill (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\bluebird\\js\\release\\promise.js:673:18)\n    at C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\bluebird\\js\\release\\nodeback.js:42:21\n    at f (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\once\\once.js:25:25)\n    at Glob.<anonymous> (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\glob\\glob.js:151:7)\n    at Glob.emit (events.js:376:20)\n    at Glob._finish (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\glob\\glob.js:197:8)\n    at done (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\glob\\glob.js:182:14)\n    at Glob._processSimple2 (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\glob\\glob.js:688:12)\n    at C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\glob\\glob.js:676:10\n    at Glob._stat2 (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\glob\\glob.js:772:12)\n    at lstatcb_ (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\glob\\glob.js:764:12)\n    at RES (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\inflight\\inflight.js:31:16)\n    at f (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\once\\once.js:25:25)\n    at callback (C:\\Users\\olgaermolova\\AppData\\Local\\Cypress\\Cache\\8.7.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\graceful-fs\\polyfills.js:289:20)\n    at FSReqCallback.oncomplete (fs.js:192:21)\n"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Response staus code is 200",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I send Post request to rm2API using 'executive_invalid.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 3369000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 186000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I send Post request to rm2API using 'empty.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 1779000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

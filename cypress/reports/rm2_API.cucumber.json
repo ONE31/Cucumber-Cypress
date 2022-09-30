@@ -1,0 +1,152 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test rm2API",
+    "line": 3,
+    "id": "test-rm2api",
+    "tags": [
+      {
+        "name": "@getHelp",
+        "line": 1
+      }
+    ],
+    "uri": "rm2_API.feature",
+    "elements": [
+      {
+        "id": "test-rm2api;successful-post-request",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Successful Post request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I send Post request to rm2API using 'Executive.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 4618000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Response staus code is 200",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I send Post request to rm2API using 'executive_invalid.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 1921000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-rm2api;invalid-post-request",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Invalid Post Request",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I requested an access_token for rm2API",
+            "result": {
+              "status": "passed",
+              "duration": 142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I send Post request to rm2API using 'empty.json' fixture",
+            "result": {
+              "status": "passed",
+              "duration": 1412000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Response staus code is 400",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

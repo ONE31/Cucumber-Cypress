@@ -1,0 +1,28 @@
+
+{
+"ClientCaseNumber":"33455667",
+"IsCaseOutsideOfGetHelp":false,
+"CustomerSegmentName": "Commercial",
+"CustomerType": "Account",
+"FirstName":"Sai",
+"LastName":"Polamarasetty",
+"CountryCode":"USA",
+"Phone":"17045678767",
+"Email":"v-saipola@gmail.com",
+"StakeholderEmails": ["v-saipola@microsoft.com"],
+"IssueType":"Product / Service",
+"Products":[{"ProductName":"Azure - Databricks","ParentProductName":"Azure","IsPrimary":true}],
+"CaseDescription":"This case is not redirecting to CSS dispatcher queue.",
+"IsProductPrimary": true,
+"DesiredOutcomeDescription": "Please ignore this is a test case created from gethelp rm2apieu",
+"CaseParentProductQuestionaire":[{"ParentProductQuestionnaireId":1,
+"ParentProductQuestionnaireOptionId":115,
+ "ParentProductId":15,
+ "ParentProductName":"Azure",
+ "QuestionText":"What is this request related to?",
+"QuestionOptionText":"Cloud Consumption Blocker - FY22 Q4 Sales Risk",
+"CommunicateWithCustomer":false}],
+"MSSalesId": "50861508",
+"IsPartnerFlag": false,
+"IsServiceIncidentNumberRelated": false
+}

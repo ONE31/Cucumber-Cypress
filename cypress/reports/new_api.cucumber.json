@@ -1,0 +1,21 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "new Feature",
+    "line": 1,
+    "id": "new-feature",
+    "tags": [],
+    "uri": "new_api.feature",
+    "elements": [
+      {
+        "id": "new-feature;dfdgfgfg",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "dfdgfgfg",
+        "tags": [],
+        "type": "scenario",
+        "steps": []
+      }
+    ]
+  }
+]

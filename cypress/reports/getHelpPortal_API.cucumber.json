@@ -1,0 +1,152 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test GetHelp Portal API",
+    "line": 2,
+    "id": "test-gethelp-portal-api",
+    "tags": [
+      {
+        "name": "@getHelp",
+        "line": 1
+      }
+    ],
+    "uri": "getHelpPortal_API.feature",
+    "elements": [
+      {
+        "id": "test-gethelp-portal-api;successfully-get-countries-list",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Successfully Get Countries list",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I requested an access_token for GetHelp Portal API",
+            "result": {
+              "status": "passed",
+              "duration": 803000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I send Get request to GetHelp Portal with the uri path'/odata/country'",
+            "result": {
+              "status": "passed",
+              "duration": 6109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Response staus code is 200",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-gethelp-portal-api;successfully-get-incident-type",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Successfully Get Incident type",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I requested an access_token for GetHelp Portal API",
+            "result": {
+              "status": "passed",
+              "duration": 174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I send Get request to GetHelp Portal with the uri path'/odata/incidenttype'",
+            "result": {
+              "status": "passed",
+              "duration": 3044000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Response staus code is 200",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-gethelp-portal-api;successfully-get-user-domain",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Successfully Get User Domain",
+        "tags": [
+          {
+            "name": "@getHelp",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I requested an access_token for GetHelp Portal API",
+            "result": {
+              "status": "passed",
+              "duration": 201000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I send Get request to GetHelp Portal with the uri path'/odata/userdomain'",
+            "result": {
+              "status": "passed",
+              "duration": 611000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Response staus code is 200",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
