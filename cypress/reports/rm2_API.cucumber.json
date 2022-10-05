@@ -22,7 +22,7 @@
             "name": "I requested an access_token for rm2API",
             "result": {
               "status": "passed",
-              "duration": 258000000
+              "duration": 217000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I send Post request to rm2API using 'Executive.json' fixture",
             "result": {
               "status": "passed",
-              "duration": 5328000000
+              "duration": 3090000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Response staus code is 200",
             "result": {
               "status": "passed",
-              "duration": 26000000
+              "duration": 5000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Response time is less than 50000 ms",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 9000000
             }
           }
         ]
@@ -72,7 +72,7 @@
             "name": "I requested an access_token for rm2API",
             "result": {
               "status": "passed",
-              "duration": 209000000
+              "duration": 242000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I send Post request to rm2API using 'executive_invalid.json' fixture",
             "result": {
               "status": "passed",
-              "duration": 2843000000
+              "duration": 2060000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "Response staus code is 400",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 9000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "Response time is less than 20000 ms",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 7000000
             }
           }
         ]
@@ -122,7 +122,7 @@
             "name": "I requested an access_token for rm2API",
             "result": {
               "status": "passed",
-              "duration": 173000000
+              "duration": 212000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "I send Post request to rm2API using 'empty.json' fixture",
             "result": {
               "status": "passed",
-              "duration": 1454000000
+              "duration": 1673000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "Response staus code is 400",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 17000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "Response time is less than 20000 ms",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 13000000
             }
           }
         ]

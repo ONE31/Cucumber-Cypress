@@ -34,11 +34,9 @@ Cypress.Commands.add("getElementCheckNotVisible",(selector:string)=>
 Cypress.Commands.add("getElementClick",(selector:string)=>
 {cy.get(selector).then((element)=> {
     cy.get(selector).click({ force: true }),
-    cy.wait(10000)
+    cy.wait(5000)
 })
 })
 
 })
 
-
-})

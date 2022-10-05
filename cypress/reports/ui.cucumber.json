@@ -32,7 +32,7 @@
             "name": "I open the webpage 'dice_uri'",
             "result": {
               "status": "passed",
-              "duration": 5894000000
+              "duration": 6657000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I locate the element using selector '.banner-headline' and ensure the text is 'Need Tech Talent?'",
             "result": {
               "status": "passed",
-              "duration": 33000000
+              "duration": 45000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I locate the element using selector '.icon-padding2' and ensure it is visible",
             "result": {
               "status": "passed",
-              "duration": 29000000
+              "duration": 33000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I locate the element using selector '.icon-padding2' and click on it",
             "result": {
               "status": "passed",
-              "duration": 10744000000
+              "duration": 5686000000
             }
           },
           {
@@ -72,7 +72,60 @@
             "name": "I ensure the text 'Connect with your next great tech hire today.' is displayed on the screen",
             "result": {
               "status": "passed",
-              "duration": 40000000
+              "duration": 55000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-ui;successfully-navigate-through-the-basic-page",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Successfully navigate through the Basic page",
+        "tags": [
+          {
+            "name": "@ui",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I open the webpage 'dice_uri'",
+            "result": {
+              "status": "passed",
+              "duration": 1292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I locate the element using selector '.banner-headline' and ensure the text is 'Create new escalation'",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Text of the web element does not match expected: expected 'Need Tech Talent?' to equal 'Create new escalation'\n    + expected - actual\n\n    -'Need Tech Talent?'\n    +'Create new escalation'\n\n    at Context.eval (https://www.dice.com/__cypress/tests?p=cypress\\support\\index.js:7:82)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I locate the element using selector '.icon-padding2' and click on it",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I locate the element using selector '.banner-headline' and ensure the text is 'Executive Flow'",
+            "result": {
+              "status": "skipped"
             }
           }
         ]

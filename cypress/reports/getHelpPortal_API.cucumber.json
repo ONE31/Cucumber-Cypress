@@ -22,7 +22,7 @@
             "name": "I requested an access_token for GetHelp Portal API",
             "result": {
               "status": "passed",
-              "duration": 576000000
+              "duration": 753000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I send Get request to GetHelp Portal with the uri path'/odata/country'",
             "result": {
               "status": "passed",
-              "duration": 2052000000
+              "duration": 1812000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Response staus code is 200",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 10000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Response time is less than 10000 ms",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 8000000
             }
           }
         ]
@@ -72,7 +72,7 @@
             "name": "I requested an access_token for GetHelp Portal API",
             "result": {
               "status": "passed",
-              "duration": 206000000
+              "duration": 208000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I send Get request to GetHelp Portal with the uri path'/odata/incidenttype'",
             "result": {
               "status": "passed",
-              "duration": 686000000
+              "duration": 653000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "And Response time is less than 10000 ms",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 4000000
             }
           }
         ]
@@ -112,7 +112,7 @@
             "name": "I requested an access_token for GetHelp Portal API",
             "result": {
               "status": "passed",
-              "duration": 178000000
+              "duration": 190000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I send Get request to GetHelp Portal with the uri path'/odata/userdomain'",
             "result": {
               "status": "passed",
-              "duration": 740000000
+              "duration": 761000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "And Response time is less than 10000 ms",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 5000000
             }
           }
         ]
