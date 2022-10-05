@@ -9,7 +9,7 @@ Given(/I want to call API Endpoint$/, () => {
         expect(response.status).equals(200);
 
     })
-})
+}),
 
 Given(/I requested an access_token for rm2API$/, () => {
     
@@ -33,7 +33,7 @@ Given(/I requested an access_token for rm2API$/, () => {
         Utilities.storeInTestScope('token', "Bearer "+token)
     })
 
-  })
+  }),
 
   Given(/I requested an access_token for GetHelp Portal API$/, () => {
     
@@ -57,13 +57,13 @@ Given(/I requested an access_token for rm2API$/, () => {
         Utilities.storeInTestScope('token', "Bearer "+token)
     })
 
-  })
+  }),
     
   Given(/I send Post request to rm2API using '(.*?)' fixture$/, (payload_path:string) => {
     
         console.log(`Step: I send Post request to rm2API using `+payload_path+ 'fixture'), 
         cy.fixture(payload_path).then((payload) => { 
-          //payload.ClientCaseNumber=  Math.floor(Math.random() * 9999999);
+        payload?.ClientCaseNumber=  '5654656565'
         cy.request({
           method: 'POST',
           url: Utilities.getFromConfig("rm2_api"),
@@ -75,10 +75,12 @@ Given(/I requested an access_token for rm2API$/, () => {
           failOnStatusCode:false
         }).then((response) => {
             Utilities.storeInTestScope('responseBody',response.body),
-            Utilities.storeInTestScope('responseStatusCode',response.status)
+            Utilities.storeInTestScope('responseStatusCode',response.status),
+            Utilities.storeInTestScope('response',response)
+
         })
     })
-})
+}),
 
 Given(/I send Get request to GetHelp Portal with the uri path'(.*?)'$/, (path:string) => {
     
@@ -92,15 +94,27 @@ Given(/I send Get request to GetHelp Portal with the uri path'(.*?)'$/, (path:st
     },
   }).then((response) => {
       Utilities.storeInTestScope('responseBody',response.body),
-      Utilities.storeInTestScope('responseStatusCode',response.status)
+      Utilities.storeInTestScope('responseStatusCode',response.status),
+      Utilities.storeInTestScope('response',response)
   })
+}),
+
+And(/Response time is less than (\d+) ms$/, (expectedTime:number) => {
+    
+  console.log(`Step: Response time is less than`+expectedTime)
+  const actualResponseTime=(Utilities.getFromTestScope("response") as Cypress.Response<any>).duration as number
+  expect(actualResponseTime<expectedTime,'Actual response time '+actualResponseTime+' more than expected time '+expectedTime).to.be.true
+  
 }),
 
 Then(/Response staus code is (\d+)$/, (expectedStatusCode:number) => {
     
   console.log(`Step: Response status code is `+expectedStatusCode),
   expect(Utilities.getFromTestScope("responseStatusCode"),'Actual response status code does not match expected').to.eq(expectedStatusCode)
-  
-})
+
+  })
+
+
+
 
 

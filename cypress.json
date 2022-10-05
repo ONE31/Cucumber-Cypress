@@ -10,7 +10,8 @@
            "clientid":"8969a972-b95a-4ee1-af21-492de7307faa",
            "secretid":"secret",
            "rm2_api_scope":"api://a0563f24-d668-40d9-a1ed-0c5840213e53/.default",
-           "gethelp_api_scope":"api://2863053e-e7d3-42ae-a137-4d682f95919e/.default"
+           "gethelp_api_scope":"api://2863053e-e7d3-42ae-a137-4d682f95919e/.default",
+           "dice_uri":"https://www.dice.com/"
 
 
 

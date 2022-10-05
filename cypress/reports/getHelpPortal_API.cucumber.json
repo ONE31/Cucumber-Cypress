@@ -2,57 +2,57 @@
   {
     "keyword": "Feature",
     "name": "Test GetHelp Portal API",
-    "line": 2,
+    "line": 1,
     "id": "test-gethelp-portal-api",
-    "tags": [
-      {
-        "name": "@getHelp",
-        "line": 1
-      }
-    ],
+    "tags": [],
     "uri": "getHelpPortal_API.feature",
     "elements": [
       {
         "id": "test-gethelp-portal-api;successfully-get-countries-list",
         "keyword": "Scenario",
-        "line": 4,
+        "line": 3,
         "name": "Successfully Get Countries list",
-        "tags": [
-          {
-            "name": "@getHelp",
-            "line": 1
-          }
-        ],
+        "tags": [],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 4,
             "name": "I requested an access_token for GetHelp Portal API",
             "result": {
               "status": "passed",
-              "duration": 803000000
+              "duration": 566000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
+            "line": 5,
             "name": "I send Get request to GetHelp Portal with the uri path'/odata/country'",
             "result": {
               "status": "passed",
-              "duration": 6109000000
+              "duration": 1570000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
+            "line": 6,
             "name": "Response staus code is 200",
             "result": {
               "status": "passed",
-              "duration": 35000000
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Response time is less than 10000 ms",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
             }
           }
         ]
@@ -62,12 +62,7 @@
         "keyword": "Scenario",
         "line": 9,
         "name": "Successfully Get Incident type",
-        "tags": [
-          {
-            "name": "@getHelp",
-            "line": 1
-          }
-        ],
+        "tags": [],
         "type": "scenario",
         "steps": [
           {
@@ -77,7 +72,7 @@
             "name": "I requested an access_token for GetHelp Portal API",
             "result": {
               "status": "passed",
-              "duration": 174000000
+              "duration": 235000000
             }
           },
           {
@@ -87,14 +82,14 @@
             "name": "I send Get request to GetHelp Portal with the uri path'/odata/incidenttype'",
             "result": {
               "status": "passed",
-              "duration": 3044000000
+              "duration": 1403000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 12,
-            "name": "Response staus code is 200",
+            "name": "And Response time is less than 10000 ms",
             "result": {
               "status": "passed",
               "duration": 7000000
@@ -107,12 +102,7 @@
         "keyword": "Scenario",
         "line": 14,
         "name": "Successfully Get User Domain",
-        "tags": [
-          {
-            "name": "@getHelp",
-            "line": 1
-          }
-        ],
+        "tags": [],
         "type": "scenario",
         "steps": [
           {
@@ -122,7 +112,7 @@
             "name": "I requested an access_token for GetHelp Portal API",
             "result": {
               "status": "passed",
-              "duration": 201000000
+              "duration": 183000000
             }
           },
           {
@@ -132,17 +122,17 @@
             "name": "I send Get request to GetHelp Portal with the uri path'/odata/userdomain'",
             "result": {
               "status": "passed",
-              "duration": 611000000
+              "duration": 1019000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 17,
-            "name": "Response staus code is 200",
+            "name": "And Response time is less than 10000 ms",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 8000000
             }
           }
         ]
