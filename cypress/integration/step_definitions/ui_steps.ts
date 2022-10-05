@@ -12,33 +12,25 @@ Given(/I open the webpage '(.*?)'$/, (uri:string) => {
 
 And(/I locate the element using selector '(.*?)' and ensure the text is '(.*?)'$/, (selector:string, expectedText:string) => {
     //console.log(`Step: I locate the element using selector and ensure the text is'),
-    cy.get(selector).invoke("text").then((actualText)=> {
-        expect(actualText,'Text of the web element does not match expected').to.eq(expectedText)
-
-    })
+    cy.getElementValidateText(selector,expectedText)
     
 }),
 
 And(/I locate the element using selector '(.*?)' and ensure it is visible$/, (selector:string) => {
     //console.log(`Step: I locate the element using selector and ensure it is visible'),
-    cy.get(selector).then((element)=> {
-        expect(element,'Element is not visible on the page').to.be.visible
-    })
+    cy.getElementCheckVisible(selector)
     
 })
 
 And(/I locate the element using selector '(.*?)' and ensure it is not visible$/, (selector:string) => {
     //console.log(`Step: I locate the element using selector and ensure it is not visible'),
-    cy.get(selector).then((element)=> {
-        expect(element,'Element is not visible on the page').to.not.be.visible
-    })
+    cy.getElementCheckNotVisible(selector)
     
 })
 
 And(/I locate the element using selector '(.*?)' and click on it$/, (selector:string) => {
     //console.log(`Step: I locate the element using selector and click on it'),
-    cy.get(selector).click({ force: true }),
-    cy.wait(10000)
+    cy.getElementClick(selector)
 
  })
 
